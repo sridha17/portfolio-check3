@@ -80,9 +80,6 @@ p:hover:nth-child(3n){
   margin: 2px;
 }
 
-.containerFlex:focus .overlay {
-  opacity: 0.7;
-}
 
 .text {
     color: white;
@@ -190,7 +187,7 @@ fieldset label, input, textarea{
 .cubs-text{
   grid-column: 3 / span 2;
   grid-row: 10 / span 1;
-    background-color: rgb(1, 1, 70);
+  background-color: rgb(1, 1, 70);
   opacity: 0.7;
   max-height: 500px;
   color: white;
