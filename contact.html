@@ -24,11 +24,12 @@
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'> 
-	<title>Wildlife</title>
+	<title>Contact</title>
+	<script src="https://kit.fontawesome.com/a3f054aa93.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- All of the visible code in the page belongs in the body tag -->
-<body>
+<body class="bg">
 	<!-- Header is a sematic tag page that aids readability -->
 	<header>
         <a class=skip href="#main">Skip to content</a>
@@ -52,12 +53,12 @@
 method="POST">
 	
 	<fieldset id="fs-frm-inputs">
-	  <label for="full-name">Full Name</label>
+	  <label for="full-name">Full Name <i class="fa-solid fa-user"></i></label>
 	  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-	  <label for="email-address">Email Address</label>
+	  <label for="email-address">Email Address <i class="fa-solid fa-envelope"></i></label>
 	  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-	  <label for="message">Message</label>
-	  <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+	  <label for="message">Message <i class="fa-solid fa-message"></i></label>
+	  <textarea rows="5" name="message" id="message" placeholder="Feel free to let me know what you think or have any questions/inquiries!" required=""></textarea>
 	  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
 	</fieldset>
 

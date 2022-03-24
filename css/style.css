@@ -5,6 +5,9 @@ body{
     margin-left: 25px;
     margin-right: 25px;
 }
+.bg{
+  background: url("../images/bg.jpg"), #f1f1f1;
+}
 h1{
     font-size: 30px;
     text-align: center;
@@ -68,8 +71,13 @@ p:hover:nth-child(3n){
 }
 .containerFlex img{
   width: auto;
+  height: auto;
   border: solid 16px white;
   margin: 2px;
+}
+
+.containerFlex:focus .overlay {
+  opacity: 0.7;
 }
 
 .text {
@@ -114,7 +122,7 @@ nav li a.current{
 
   @keyframes example {
     from {
-    width: 650px;
+    width: 400px;
     opacity: 0;
     }
     to {
@@ -125,7 +133,7 @@ nav li a.current{
     
  img[src = "images/landscape-1.jpg"] {
     animation-name: example;
-    animation-duration: 5s; 
+    animation-duration: 10s; 
     animation-iteration-count: 1;
 }
 
