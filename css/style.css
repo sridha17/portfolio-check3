@@ -70,12 +70,11 @@ p:hover:nth-child(3n){
 
 .containerFlex{
   display: flex;
-  flex-basis: auto;
-  justify-content: space-between;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .containerFlex img{
-  width: auto;
+  width: 350px;
   height: auto;
   border: solid 16px white;
   margin: 2px;
